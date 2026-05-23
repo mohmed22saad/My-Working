@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شرح نظام OASIS Plus - المراحل التعليمية</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🏥 نظام OASIS Plus</h1>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">الرئيسية</a>
+                <a href="#stages" class="nav-link">المراحل</a>
+                <a href="#stage1" class="nav-link">المرحلة الأولى</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">دليلك الشامل لفهم نظام OASIS Plus</h2>
+                <p class="hero-subtitle">تعلم خطوة بخطوة كيفية استخدام نظام إدارة الطلبات الطبية</p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">مراحل تعليمية</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">تطبيق عملي</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">مراجعة مستمرة</span>
+                    </div>
+                </div>
+                <a href="#stages" class="btn btn-primary">ابدأ التعلم</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stages Overview -->
+    <section id="stages" class="stages-section">
+        <div class="container">
+            <h2 class="section-title">المراحل التعليمية</h2>
+            <div class="stages-grid">
+                <div class="stage-card active" onclick="showStage(1)">
+                    <div class="stage-number">1</div>
+                    <h3 class="stage-title">فهم نظام OASIS</h3>
+                    <p class="stage-desc">Workflow وتحليل الطلبات</p>
+                    <span class="stage-status">متاح</span>
+                </div>
+                <div class="stage-card locked">
+                    <div class="stage-number">2</div>
+                    <h3 class="stage-title">المرحلة الثانية</h3>
+                    <p class="stage-desc">قريباً</p>
+                    <span class="stage-status">قريباً</span>
+                </div>
+                <div class="stage-card locked">
+                    <div class="stage-number">3</div>
+                    <h3 class="stage-title">المرحلة الثالثة</h3>
+                    <p class="stage-desc">قريباً</p>
+                    <span class="stage-status">قريباً</span>
+                </div>
+                <div class="stage-card locked">
+                    <div class="stage-number">4</div>
+                    <h3 class="stage-title">المرحلة الرابعة</h3>
+                    <p class="stage-desc">قريباً</p>
+                    <span class="stage-status">قريباً</span>
+                </div>
+                <div class="stage-card locked">
+                    <div class="stage-number">5</div>
+                    <h3 class="stage-title">المرحلة الخامسة</h3>
+                    <p class="stage-desc">قريباً</p>
+                    <span class="stage-status">قريباً</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stage 1 Content -->
+    <section id="stage1" class="stage-content">
+        <div class="container">
+            <div class="stage-header">
+                <span class="stage-badge">المرحلة 1</span>
+                <h2 class="stage-main-title">فهم نظام OASIS – Workflow وتحليل الطلبات</h2>
+                <p class="stage-intro">نظرة عامة على خطوات العمل داخل نظام OASIS Plus للوصول إلى طلبات المرضى الخاصة بالأشعة وتتبعها</p>
+            </div>
+
+            <!-- Workflow Diagram -->
+            <div class="workflow-section">
+                <h3 class="subsection-title">📋 Workflow الكامل للنظام</h3>
+                <div class="workflow-diagram">
+                    <div class="workflow-step">
+                        <div class="step-icon">🔐</div>
+                        <div class="step-content">
+                            <h4>Login</h4>
+                            <p>تسجيل الدخول</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-icon">☰</div>
+                        <div class="step-content">
+                            <h4>Open Sidebar</h4>
+                            <p>فتح القائمة الجانبية</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-icon">📁</div>
+                        <div class="step-content">
+                            <h4>Service Delivery Processing</h4>
+                            <p>معالجة خدمة التوصيل</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-icon">🔍</div>
+                        <div class="step-content">
+                            <h4>Order Tracking</h4>
+                            <p>تتبع الطلبات</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-icon">✏️</div>
+                        <div class="step-content">
+                            <h4>Enter MR No / Patient ID</h4>
+                            <p>إدخال رقم الملف أو المريض</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-icon">🔎</div>
+                        <div class="step-content">
+                            <h4>Query Orders</h4>
+                            <p>البحث عن الطلبات</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-icon">📊</div>
+                        <div class="step-content">
+                            <h4>Display Orders List</h4>
+                            <p>عرض قائمة الطلبات</p>
+                        </div>
+                        <div class="step-arrow">↓</div>
+                    </div>
+                    <div class="workflow-step final">
+                        <div class="step-icon">📋</div>
+                        <div class="step-content">
+                            <h4>Actions</h4>
+                            <p>عرض التفاصيل أو طباعة الطلب</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Steps -->
+            <div class="steps-section">
+                <h3 class="subsection-title">📝 الخطوات التفصيلية</h3>
+                
+                <!-- Step 1 -->
+                <div class="detail-step">
+                    <div class="step-header">
+                        <span class="step-number">1</span>
+                        <h4>الدخول إلى القائمة الجانبية</h4>
+                    </div>
+                    <div class="step-body">
+                        <p>من الصفحة الرئيسية:</p>
+                        <ul class="step-list">
+                            <li>الضغط على أيقونة <strong>Hamburger Menu</strong> أعلى اليسار</li>
+                            <li>فتح القائمة الجانبية الخاصة بالنظام</li>
+                        </ul>
+                        <div class="path-box">
+                            <span class="path-label">المسار:</span>
+                            <code>Service Delivery Processing → Order Tracking</code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="detail-step">
+                    <div class="step-header">
+                        <span class="step-number">2</span>
+                        <h4>فتح شاشة Order Tracking</h4>
+                    </div>
+                    <div class="step-body">
+                        <p>بعد اختيار Order Tracking تظهر شاشة البحث عن الطلبات. الشاشة تحتوي على حقول الفلترة والبحث:</p>
+                        <div class="table-container">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>الحقل</th>
+                                        <th>الوصف</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Department</td>
+                                        <td>القسم (Radiology)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MR No</td>
+                                        <td>رقم الملف الطبي</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patient ID</td>
+                                        <td>رقم المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patient Name</td>
+                                        <td>اسم المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Date Range</td>
+                                        <td>نطاق التاريخ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Status</td>
+                                        <td>حالة الطلب</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Attendance</td>
+                                        <td>نوع المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pharmacy Category</td>
+                                        <td>التصنيف</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="detail-step">
+                    <div class="step-header">
+                        <span class="step-number">3</span>
+                        <h4>البحث عن طلب مريض</h4>
+                    </div>
+                    <div class="step-body">
+                        <p>الخطوات:</p>
+                        <ul class="step-list">
+                            <li>إدخال رقم المريض أو رقم الملف</li>
+                            <li>الضغط على زر: <strong>Query Orders</strong></li>
+                        </ul>
+                        <div class="info-box">
+                            <span class="info-icon">ℹ️</span>
+                            <p>النظام يقوم بجلب جميع الطلبات المرتبطة بالمريض</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="detail-step">
+                    <div class="step-header">
+                        <span class="step-number">4</span>
+                        <h4>ظهور بيانات الطلب</h4>
+                    </div>
+                    <div class="step-body">
+                        <p>بعد البحث يظهر جدول الطلبات. البيانات الظاهرة داخل الجدول:</p>
+                        <div class="table-container">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>الحقل</th>
+                                        <th>المعنى</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Status</td>
+                                        <td>حالة الطلب</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Urgency</td>
+                                        <td>درجة الاستعجال</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MR No</td>
+                                        <td>رقم الملف</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patient ID</td>
+                                        <td>رقم المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Location</td>
+                                        <td>القسم/الموقع</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patient Name</td>
+                                        <td>اسم المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Age</td>
+                                        <td>العمر</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item</td>
+                                        <td>الخدمة المطلوبة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Order Datetime</td>
+                                        <td>وقت إنشاء الطلب</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Dose Datetime</td>
+                                        <td>وقت التنفيذ الأول</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="detail-step">
+                    <div class="step-header">
+                        <span class="step-number">5</span>
+                        <h4>أيقونات التحكم بالطلب</h4>
+                    </div>
+                    <div class="step-body">
+                        <p>يوجد أيقونتان مهمتان:</p>
+                        
+                        <div class="icon-card">
+                            <div class="icon-header">
+                                <span class="icon-symbol">ℹ️</span>
+                                <h5>أ) أيقونة تفاصيل الطلب</h5>
+                            </div>
+                            <p>أيقونة المعلومات (i)</p>
+                            <p><strong>وظيفتها:</strong></p>
+                            <ul class="step-list">
+                                <li>فتح نافذة تفاصيل الطلب</li>
+                                <li>المعلومات الظاهرة:</li>
+                            </ul>
+                            <div class="info-list">
+                                <span>Doctor</span>
+                                <span>Patient Location</span>
+                                <span>Creation Date</span>
+                                <span>Modify Date</span>
+                                <span>Created By</span>
+                                <span>Modified By</span>
+                                <span>Notes</span>
+                                <span>Reason For Order</span>
+                                <span>Conditions</span>
+                            </div>
+                        </div>
+
+                        <div class="icon-card">
+                            <div class="icon-header">
+                                <span class="icon-symbol">🖨️</span>
+                                <h5>ب) أيقونة الطباعة</h5>
+                            </div>
+                            <p>أيقونة الطابعة</p>
+                            <p><strong>وظيفتها:</strong> فتح ملف PDF للوصفة/طلب الأشعة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="detail-step">
+                    <div class="step-header">
+                        <span class="step-number">6</span>
+                        <h4>محتويات نموذج الطباعة (PDF)</h4>
+                    </div>
+                    <div class="step-body">
+                        <p>النموذج يحتوي على:</p>
+                        <div class="table-container">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>البيانات</th>
+                                        <th>الوصف</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sequence No</td>
+                                        <td>الرقم التسلسلي</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Master Order No</td>
+                                        <td>رقم الطلب الرئيسي</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Request Unit</td>
+                                        <td>الجهة الطالبة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patient ID</td>
+                                        <td>رقم المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MR No</td>
+                                        <td>رقم الملف</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td>اسم المريض</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Age / Sex</td>
+                                        <td>العمر والجنس</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Order Date</td>
+                                        <td>تاريخ الطلب</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Ordered</td>
+                                        <td>الخدمة المطلوبة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clinical Notes</td>
+                                        <td>الملاحظات الطبية</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total Price</td>
+                                        <td>السعر</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doctor Signature</td>
+                                        <td>توقيع الطبيب</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Structure -->
+            <div class="data-section">
+                <h3 class="subsection-title">🗂️ البيانات الأساسية المستخدمة داخل النظام</h3>
+                
+                <div class="data-category">
+                    <h4 class="category-title">بيانات المريض</h4>
+                    <div class="data-tags">
+                        <span class="data-tag">MR No</span>
+                        <span class="data-tag">Patient ID</span>
+                        <span class="data-tag">Patient Name</span>
+                        <span class="data-tag">Age</span>
+                        <span class="data-tag">Gender</span>
+                    </div>
+                </div>
+
+                <div class="data-category">
+                    <h4 class="category-title">بيانات الطلب</h4>
+                    <div class="data-tags">
+                        <span class="data-tag">Order Number</span>
+                        <span class="data-tag">Order Date</span>
+                        <span class="data-tag">Department</span>
+                        <span class="data-tag">Status</span>
+                        <span class="data-tag">Urgency</span>
+                        <span class="data-tag">Requested Service</span>
+                    </div>
+                </div>
+
+                <div class="data-category">
+                    <h4 class="category-title">بيانات التشغيل</h4>
+                    <div class="data-tags">
+                        <span class="data-tag">Created By</span>
+                        <span class="data-tag">Modified By</span>
+                        <span class="data-tag">Notes</span>
+                        <span class="data-tag">Clinical Information</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- System Architecture -->
+            <div class="architecture-section">
+                <h3 class="subsection-title">⚙️ فهم البنية التشغيلية للنظام</h3>
+                <p>النظام يعمل كالتالي:</p>
+                <div class="process-flow">
+                    <div class="process-step">
+                        <span class="process-number">1</span>
+                        <p>المستخدم يبحث عن مريض</p>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <span class="process-number">2</span>
+                        <p>النظام يجلب الطلبات من قاعدة البيانات</p>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <span class="process-number">3</span>
+                        <p>الطلب يظهر داخل Tracking Grid</p>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <span class="process-number">4</span>
+                        <p>يمكن: عرض التفاصيل / طباعة الطلب / صرف الخدمة</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Notes -->
+            <div class="technical-section">
+                <h3 class="subsection-title">💡 ملاحظات تقنية مستنتجة</h3>
+                <p>النظام يعتمد على:</p>
+                <div class="tech-cards">
+                    <div class="tech-card">
+                        <span class="tech-icon">🌐</span>
+                        <h5>Web-based Application</h5>
+                        <p>تطبيق ويب</p>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">🏥</span>
+                        <h5>Hospital Network</h5>
+                        <p>جلسات مستخدم داخلية</p>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">📄</span>
+                        <h5>Dynamic PDF Reports</h5>
+                        <p>تقارير PDF ديناميكية</p>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">📊</span>
+                        <h5>Order Tracking</h5>
+                        <p>تتبع الأوامر الطبية</p>
+                    </div>
+                </div>
+                <h4 class="category-title mt-4">الأقسام الظاهرة:</h4>
+                <div class="data-tags">
+                    <span class="data-tag">Radiology</span>
+                    <span class="data-tag">Outpatient</span>
+                    <span class="data-tag">Emergency</span>
+                    <span class="data-tag">Inpatient</span>
+                </div>
+            </div>
+
+            <!-- Summary -->
+            <div class="summary-section">
+                <h3 class="subsection-title">✅ النتيجة النهائية للمرحلة 1</h3>
+                <p>تم فهم:</p>
+                <div class="checklist">
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>طريقة التنقل داخل OASIS</span>
+                    </div>
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>Workflow الكامل للطلبات</span>
+                    </div>
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>طريقة البحث عن الطلبات</span>
+                    </div>
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>طريقة عرض التفاصيل</span>
+                    </div>
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>طريقة طباعة النماذج</span>
+                    </div>
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>الحقول الأساسية للبيانات</span>
+                    </div>
+                    <div class="check-item">
+                        <span class="check-icon">✅</span>
+                        <span>دورة حياة الطلب داخل النظام</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="stage-navigation">
+                <button class="btn btn-secondary" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                    ⬆️ العودة للأعلى
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 دليل نظام OASIS Plus - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
